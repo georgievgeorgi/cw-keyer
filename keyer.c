@@ -23,12 +23,14 @@ _CP_OFF;
 //              │             u             │
 //              │ 2  3  4  5  p  0  1  2  3 │
 //              └─┬──┬──┬──┬──┬──┬──┬──┬──┬─┘
-//                ↑  ↑  ↑  ↑     ↑  ↑  ↑  ↑
+//                ↑  ↑  ↓  ↑     ↑  ↑  ↑  ↑
 //           DIT  ┘  │  │  │  -  │  │  │  └
 //              DAH  ┘  │  │     │  │  └
-//                      ┘  │     │  └
+//               Pulses ┘  │     │  └
 //                         ┘     └
 //
+// Capacitive touch paddles de LZ2GGF
+
 
 
 #define OSCOUT RA0
